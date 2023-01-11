@@ -1,1 +1,11 @@
 /* your code */
+table,tr{
+	border:1px solid black;
+	border-collapse:collapse;
+}
+th{
+	background-color:blue;
+}
+tr:nth-child(even){
+	background-color:grey;
+}
